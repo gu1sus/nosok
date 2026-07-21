@@ -1,3 +1,4 @@
+import { CTA } from "./cta";
 import { Footer } from "./footer";
 import { Features } from "./features";
 import { FAQ } from "./faq";
@@ -15,6 +16,7 @@ export default function Home() {
       <Features />
       <Pricing />
       <FAQ />
+      <CTA />
       <Footer />
     </main>
   );

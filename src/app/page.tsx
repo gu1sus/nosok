@@ -1,7 +1,10 @@
+import { Footer } from "./footer";
+import { Features } from "./features";
+import { FAQ } from "./faq";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
+import { Pricing } from "./pricing";
 import { Story } from "./story";
-import { Features } from "./features";
 
 export default function Home() {
   return (
@@ -10,6 +13,9 @@ export default function Home() {
       <Hero />
       <Story />
       <Features />
+      <Pricing />
+      <FAQ />
+      <Footer />
     </main>
   );
 }
